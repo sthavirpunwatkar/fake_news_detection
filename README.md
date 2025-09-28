@@ -33,8 +33,8 @@ This project provides a simple, interactive tool to detect fake news. It uses **
 ---
 
 ## **Demo**
-![Demo Screenshot](demo_screenshot.png)  
-*(Optional: Add a screenshot or GIF of your app in action)*
+![Demo Screenshot](/Screenshot.png)  
+*Working Demo*
 
 ---
 
@@ -42,8 +42,8 @@ This project provides a simple, interactive tool to detect fake news. It uses **
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/fake-news-classifier.git
-cd fake-news-classifier
+git clone https://github.com/sthavirpunwatkar/fake_news_classifier.git
+cd fake_news_classifier
 ```
 
 2. **Create a virtual environment**
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 1. **Run the Streamlit app**
 ```bash
-streamlit run app_mvp.py
+streamlit run app.py
 ```
 
 2. **Enter a news headline** in the text box
@@ -86,7 +86,7 @@ streamlit run app_mvp.py
 
 ## **Project Structure**
 ```
-fake-news-classifier/
+fake_news_classifier/
 │
 ├── data/
 │   ├── True.csv
@@ -103,7 +103,7 @@ fake-news-classifier/
 │   ├── fake_news_log_model.pkl
 │   └── fake_news_nb_model.pkl
 │
-├── app_mvp.py
+├── app.py
 ├── requirements.txt
 └── README.md
 ```
